@@ -1,0 +1,99 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  min-width: 520px;
+}
+
+.header {
+  background: #F55A5A;
+  text-align: center;
+  padding-top: 1.5em;
+  padding-bottom: 1.5em;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.75rem;
+  line-height: 18px;
+  color: white;
+  margin: 0;
+}
+
+.header-text {
+  margin: 0;
+}
+
+.main {
+  margin: 40px;
+}
+
+.card-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  max-width: fit-content;
+}
+
+.card-image {
+  max-width: 200px;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.card-info-container {
+  margin: 20px;
+  align-self: start;
+}
+
+.card-location {
+  text-transform: uppercase;
+  margin-right: 1.5em;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.75rem;
+  line-height: 12px;
+  letter-spacing: 0.17em;
+}
+
+.google-maps-link {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  color: #918E9B;
+  line-height: 12px;
+  font-size: 0.75rem;
+}
+
+.card-title {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 30px;
+  color: #2B283A;
+  margin-top: 0.35em;
+}
+
+.card-date {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  line-height: 12px;
+  font-size: 0.75rem;
+  color: #2B283A;
+}
+
+.card-description {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.75rem;
+  line-height: 15px;
+  color: #2B283A;
+}
